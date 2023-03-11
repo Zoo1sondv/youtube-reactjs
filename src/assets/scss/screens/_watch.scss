@@ -1,0 +1,73 @@
+.watch {
+  width: 100%;
+  display: flex;
+  padding: 24px 24px 0;
+  background: #f9f9f9;
+
+  &__video {
+    width: 65%;
+    margin-right: 14px;
+
+    .video__info {
+      padding-top: 20px;
+    }
+  }
+  &__related {
+    display: flex;
+    margin-bottom: 10px;
+
+    &__title {
+      position: relative;
+      padding-left: 7px;
+      line-height: 1rem;
+      &-music {
+        color: black;
+        font-size: 0.86rem;
+        padding-right: 10px;
+        margin: 0 0 5px;
+        max-height: 40px;
+        overflow: hidden;
+        line-height: 1.2rem;
+        font-weight: 600;
+        display: block;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      &-author {
+        margin: 0 0 3px;
+        font-size: 0.75rem;
+        color: black;
+      }
+      &-view {
+        font-size: 0.75rem;
+        color: black;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+
+    .filterTopic {
+      border: none;
+      & > div {
+        flex: auto;
+        width: 80%;
+      }
+    }
+  }
+  &__drawer {
+    padding-top: 10px;
+    padding-left: 24px;
+  }
+}
+.style-links {
+  text-decoration: none;
+}
+.list-video__item {
+  margin-left: 43px;
+}

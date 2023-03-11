@@ -1,0 +1,25 @@
+.home {
+  flex: 1 1 auto;
+  width: 80%;
+
+  .content {
+    .list-video {
+      display: flex;
+      flex-flow: row wrap;
+      background: #f9f9f9;
+      padding: 0 22px;
+      padding-top: 24px;
+
+      .video {
+        width: calc(93% / 4);
+        margin: 0 8px 40px;
+        cursor: pointer;
+
+        &__info {
+          margin-top: 12px;
+          padding-right: 24px;
+        }
+      }
+    }
+  }
+}
